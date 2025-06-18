@@ -14,6 +14,19 @@ public class HolaMundo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("Algo sigue pasando");
     }
+
+
+    void Awake()
+    {
+        Debug.Log("Algo pasa pero Awake");
+    }
+
+    void OnDestroy()
+    {
+        Debug.LogError("SE DESTRUYE SE DESTRUYE");
+    }
+
+
 }
