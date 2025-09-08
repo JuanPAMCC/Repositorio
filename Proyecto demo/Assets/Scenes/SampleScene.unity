@@ -377,6 +377,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!1 &816094447 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5874070942468775731, guid: 656327b2d7f568247a00505364278041, type: 3}
+  m_PrefabInstance: {fileID: 1823554139513649522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1b45df229068514586b3485ebdedfc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubo: {fileID: 816094447}
 --- !u!114 &1656359858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,6 +475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eed1bdbdc56b1b4686fc9acb2b3c528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubo: {fileID: 816094447}
 --- !u!114 &1656359859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -481,6 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19421788fbf19c346a6620b42593d398, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubo: {fileID: 816094447}
 --- !u!4 &1656359860
 Transform:
   m_ObjectHideFlags: 0

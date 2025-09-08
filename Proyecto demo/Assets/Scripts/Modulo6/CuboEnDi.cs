@@ -2,13 +2,14 @@ using UnityEngine;
 
 public class CuboEnDi : MonoBehaviour
 {
+    public GameObject cubo;
     void OnEnable()
     {
-        GameObject.CreatePrimitive(PrimitiveType.Cube);
+        Instantiate(cubo);
     }
 
     void OnDisable()
     {
-        GameObject.CreatePrimitive(PrimitiveType.Cube);
+        Instantiate(cubo);
     }
 }

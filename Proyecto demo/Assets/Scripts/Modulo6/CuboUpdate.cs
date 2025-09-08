@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class CuboUpdate : MonoBehaviour
 {
+    public GameObject cubo;
     void Update()
     {
-        GameObject.CreatePrimitive(PrimitiveType.Cube);
+        Instantiate(cubo);
     }
 }

@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class CuboAwake : MonoBehaviour
 {
+    public GameObject cubo;
     void Awake()
     {
-        GameObject.CreatePrimitive(PrimitiveType.Cube);
+        Instantiate(cubo);
     }
 }
